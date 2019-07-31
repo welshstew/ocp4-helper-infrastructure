@@ -1,0 +1,9 @@
+---
+- hosts: ocp1-network
+  connection: local
+  vars_files:
+    - vars/main.yml
+
+  tasks:
+  - name: Setup DNS, PXE, and DHCP 
+    include_role: name=dhcp-dns-pxe

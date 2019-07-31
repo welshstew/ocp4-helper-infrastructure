@@ -1,0 +1,2 @@
+[ocp1-network]
+ocp1-network ansible_connection=ocp1-network
