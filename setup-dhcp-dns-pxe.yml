@@ -1,6 +1,5 @@
 ---
-- hosts: ocp1-network
-  connection: local
+- hosts: netcfg
   vars_files:
     - vars/main.yml
 
